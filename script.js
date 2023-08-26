@@ -7,7 +7,7 @@ window.onload = function() {
 
     // If the user tries to access the profile but user is logged in
     if (window.location.pathname == "/index.html" && localStorage.getItem("accessToken")) {
-        window.location.href = 'profile.html';
+        window.location.href = '/profile.html';
     }
 
     // If the user is not logged in is trying to sign up
@@ -41,7 +41,7 @@ window.onload = function() {
             localStorage.setItem("accessToken", JSON.stringify(accessToken));
 
             setTimeout(function() {
-                window.location.href = "profile.html";
+                window.location.href = "/profile.html";
             }, 1000);
         })
     } else if (window.location.pathname == "/profile.html") {
