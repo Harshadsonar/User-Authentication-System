@@ -23,23 +23,11 @@ nav {
     padding-left: 25px;
 }
 
-form {
+#card {
     padding: 150px 150px 150px 500px;
 }
 
-form h1 {
-    padding-bottom: 20px;
-}
-
-form input {
-    border-bottom: 1px solid #FFF;
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 0px;
-    width: 70%;
-}
-
-form button {
+#card button {
     color: #000;
     background: #FFF;
     width: 15%;

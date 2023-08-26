@@ -4,12 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Authentication System</title>
+    <title>Signup</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
+    <nav>
+        <p>Header</p>
+        <div id="navigation">
+            <a href="./index.html">Signup</a>
+            <a href="./profile.html">Profile</a>
+        </div>
+    </nav>
+    <form id="signupForm">
+        <h1>Signup</h1>
+        <input type="text" id="username" required placeholder="Name"><br><br>
+        <input type="email" id="email" required placeholder="Email"><br><br>
+        <input type="password" id="password" required placeholder="Password"><br><br>
+        <input type="password" id="confirmpassword" required placeholder="Confirm Password"><br><br>
+        <button type="submit" id="button">Signup</button><br><br>
+        <p id="message"></p>
+    </form>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
